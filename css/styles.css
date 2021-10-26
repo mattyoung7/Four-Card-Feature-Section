@@ -55,6 +55,7 @@ img {
 
 .header__text {
     font-size: 0.9375rem;
+    color: var(--grayish-blue);
 }
 
 .flex {
@@ -112,6 +113,7 @@ img {
 
     h1, h2 {
         font-size: 3rem;
+        line-height: 3.375rem;
     }
 
     .container {
@@ -157,7 +159,12 @@ img {
     }
 
     .flex__item {
+        padding: 2rem;
         min-width: 21.875rem;
         max-width: 21.875rem;
+    }
+
+    .flex__item--text {
+        padding-bottom: 2.5rem;
     }
 }
